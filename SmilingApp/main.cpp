@@ -50,9 +50,13 @@ int main()
 {
 	srand(time(NULL));
 
-	const int IDR_LIST[4] = { IDR_WAVE1, IDR_WAVE2, IDR_WAVE3, IDR_WAVE4 };
+	const int IDR_LIST[] = { IDR_WAVE1, IDR_WAVE2, IDR_WAVE3, IDR_WAVE4 };
 
-	PlaySound(MAKEINTRESOURCE(IDR_LIST[rand() % 4]), GetModuleHandle(NULL), SND_RESOURCE | SND_LOOP | SND_ASYNC);
+	PlaySound(MAKEINTRESOURCE(
+		IDR_LIST[rand() % (sizeof(IDR_LIST) / sizeof(IDR_LIST[0]))]),
+		GetModuleHandle(NULL),
+		SND_RESOURCE | SND_LOOP | SND_ASYNC
+	);
 
 	while (true)
 	{
