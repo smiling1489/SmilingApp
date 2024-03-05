@@ -144,11 +144,16 @@
   </ItemGroup>
   <ItemGroup>
     <Media Include="bell.wav" />
+    <Media Include="Data\bell.wav" />
+    <Media Include="Data\freddy.wav" />
+    <Media Include="Data\sieben.wav" />
+    <Media Include="Data\stinky.wav" />
     <Media Include="freddy.wav" />
     <Media Include="sieben.wav" />
     <Media Include="stinky.wav" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="Data\smiling.ico" />
     <Image Include="smiling.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

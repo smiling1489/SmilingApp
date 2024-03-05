@@ -42,9 +42,24 @@
     <Media Include="stinky.wav">
       <Filter>Файлы ресурсов</Filter>
     </Media>
+    <Media Include="Data\bell.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="Data\freddy.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="Data\sieben.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
+    <Media Include="Data\stinky.wav">
+      <Filter>Файлы ресурсов</Filter>
+    </Media>
   </ItemGroup>
   <ItemGroup>
     <Image Include="smiling.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Data\smiling.ico">
       <Filter>Файлы ресурсов</Filter>
     </Image>
   </ItemGroup>
